@@ -2,6 +2,7 @@ package tutorials.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import jakarta.validation.constraints.NotNull;
 
 import java.util.UUID;
 
@@ -10,6 +11,7 @@ public class Tutorial {
 
     @Id
     private UUID id;
+    @NotNull
     private String title;
     private String description;
     private Boolean published;
