@@ -26,7 +26,7 @@ public class TutorialsController {
         Tutorial savedTutorial = tutorialsRepository.save(new Tutorial(
                 tutorial.getTitle(),
                 tutorial.getDescription(),
-                tutorial.isPublished()));
+                tutorial.getPublished()));
 
         return new ResponseEntity<>(savedTutorial, HttpStatus.CREATED);
     }
