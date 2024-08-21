@@ -4,10 +4,12 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.validation.constraints.NotNull;
 import lombok.Getter;
+import lombok.Setter;
 
 import java.util.UUID;
 
 @Getter
+@Setter
 @Entity
 public class Tutorial {
 
@@ -16,6 +18,7 @@ public class Tutorial {
     @NotNull
     private String title;
     private String description;
+    @NotNull
     private Boolean published;
 
     public Tutorial() {
