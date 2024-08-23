@@ -23,4 +23,6 @@ Spring Web API to manage tutorials through CRUD operations.
 * Spring Boot 3 (with Spring Web MVC)
 * JPA
 * PostgreSQL
+* JUnit
+* Mockito
 * Gradle
