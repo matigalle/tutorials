@@ -1,5 +1,5 @@
 # Tutorials
-Spring Web API to manage tutorials through CRUD operations.
+Spring Web REST API to manage tutorials through CRUD operations.
 
 * Each tutorial has id, title, description, published status
 * Actions help to create, retrieve, update and delete tutorials
